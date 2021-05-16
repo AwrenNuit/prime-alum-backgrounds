@@ -5,20 +5,24 @@
 }
 
 .root {
-  height: 100vh;
+  min-height: 100vh;
 }
 
 body {
-  height: 100vh;
+  min-height: 100vh;
 }
 
 .main-wrapper {
   background-color: #21292c;
   color: #fff;
-  height: 100vh;
+  min-height: 100vh;
   padding: 2rem;
 }
 
 input {
   margin-left: 1.2rem;
+}
+
+button {
+  cursor: pointer;
 }

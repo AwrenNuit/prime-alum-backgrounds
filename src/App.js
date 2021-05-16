@@ -14,6 +14,7 @@ export default function App() {
     e.preventDefault();
     const newPostKey = db.ref().push().key;
     db.ref().update({ [newPostKey]: backgroundInput });
+    setBackgroundInput("");
   };
 
   return (
